@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F660904515C89DC40067B168 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F660904415C89DC40067B168 /* Cocoa.framework */; };
+		F660904F15C89DC40067B168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F660904D15C89DC40067B168 /* InfoPlist.strings */; };
+		F660905115C89DC40067B168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F660905015C89DC40067B168 /* main.m */; };
+		F660905515C89DC40067B168 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F660905315C89DC40067B168 /* Credits.rtf */; };
+		F660905815C89DC40067B168 /* PSMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F660905715C89DC40067B168 /* PSMAppDelegate.m */; };
+		F660905B15C89DC40067B168 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F660905915C89DC40067B168 /* MainMenu.xib */; };
+		F6A11A7F15C8A37A00CBC73C /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F6A11A7E15C8A37A00CBC73C /* Icon.icns */; };
+		F6A11A8315C8A59300CBC73C /* tibbr_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A11A8115C8A56D00CBC73C /* tibbr_small@2x.png */; };
+		F6A11A8415C8A59600CBC73C /* tibbr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A11A8015C8A56D00CBC73C /* tibbr_small.png */; };
+		F6A11A9B15C8A7B600CBC73C /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A8715C8A7B600CBC73C /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11A9C15C8A7B600CBC73C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A8915C8A7B600CBC73C /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11A9D15C8A7B600CBC73C /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A8B15C8A7B600CBC73C /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11A9E15C8A7B600CBC73C /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A8D15C8A7B600CBC73C /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11A9F15C8A7B600CBC73C /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A8F15C8A7B600CBC73C /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11AA015C8A7B600CBC73C /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A9115C8A7B600CBC73C /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11AA115C8A7B600CBC73C /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A9415C8A7B600CBC73C /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11AA215C8A7B600CBC73C /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A9615C8A7B600CBC73C /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11AA315C8A7B600CBC73C /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A9815C8A7B600CBC73C /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11AA415C8A7B600CBC73C /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11A9A15C8A7B600CBC73C /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6A11AA715C8A86500CBC73C /* PSMTibbrServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11AA615C8A86500CBC73C /* PSMTibbrServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F660904015C89DC40067B168 /* tibbrNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tibbrNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F660904415C89DC40067B168 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F660904715C89DC40067B168 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F660904815C89DC40067B168 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F660904915C89DC40067B168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F660904C15C89DC40067B168 /* tibbrNotifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tibbrNotifier-Info.plist"; sourceTree = "<group>"; };
+		F660904E15C89DC40067B168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F660905015C89DC40067B168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F660905215C89DC40067B168 /* tibbrNotifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tibbrNotifier-Prefix.pch"; sourceTree = "<group>"; };
+		F660905415C89DC40067B168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F660905615C89DC40067B168 /* PSMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSMAppDelegate.h; sourceTree = "<group>"; };
+		F660905715C89DC40067B168 /* PSMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSMAppDelegate.m; sourceTree = "<group>"; };
+		F660905A15C89DC40067B168 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F6A11A7B15C8A37000CBC73C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		F6A11A7E15C8A37A00CBC73C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		F6A11A8015C8A56D00CBC73C /* tibbr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tibbr_small.png; sourceTree = "<group>"; };
+		F6A11A8115C8A56D00CBC73C /* tibbr_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tibbr_small@2x.png"; sourceTree = "<group>"; };
+		F6A11A8615C8A7B600CBC73C /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		F6A11A8715C8A7B600CBC73C /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		F6A11A8815C8A7B600CBC73C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		F6A11A8915C8A7B600CBC73C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		F6A11A8A15C8A7B600CBC73C /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		F6A11A8B15C8A7B600CBC73C /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		F6A11A8C15C8A7B600CBC73C /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		F6A11A8D15C8A7B600CBC73C /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		F6A11A8E15C8A7B600CBC73C /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		F6A11A8F15C8A7B600CBC73C /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		F6A11A9015C8A7B600CBC73C /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		F6A11A9115C8A7B600CBC73C /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		F6A11A9215C8A7B600CBC73C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		F6A11A9315C8A7B600CBC73C /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		F6A11A9415C8A7B600CBC73C /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		F6A11A9515C8A7B600CBC73C /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		F6A11A9615C8A7B600CBC73C /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		F6A11A9715C8A7B600CBC73C /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		F6A11A9815C8A7B600CBC73C /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		F6A11A9915C8A7B600CBC73C /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		F6A11A9A15C8A7B600CBC73C /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		F6A11AA515C8A86500CBC73C /* PSMTibbrServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMTibbrServer.h; sourceTree = "<group>"; };
+		F6A11AA615C8A86500CBC73C /* PSMTibbrServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMTibbrServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F660903D15C89DC40067B168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F660904515C89DC40067B168 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F660903515C89DC40067B168 = {
+			isa = PBXGroup;
+			children = (
+				F6A11A7E15C8A37A00CBC73C /* Icon.icns */,
+				F660904A15C89DC40067B168 /* tibbrNotifier */,
+				F660904315C89DC40067B168 /* Frameworks */,
+				F660904115C89DC40067B168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F660904115C89DC40067B168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F660904015C89DC40067B168 /* tibbrNotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F660904315C89DC40067B168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F660904415C89DC40067B168 /* Cocoa.framework */,
+				F660904615C89DC40067B168 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F660904615C89DC40067B168 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F660904715C89DC40067B168 /* AppKit.framework */,
+				F660904815C89DC40067B168 /* CoreData.framework */,
+				F660904915C89DC40067B168 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F660904A15C89DC40067B168 /* tibbrNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				F6A11A8515C8A7A600CBC73C /* AFNetworking */,
+				F6A11A8215C8A57200CBC73C /* Images */,
+				F6A11A7B15C8A37000CBC73C /* Icon.icns */,
+				F660905615C89DC40067B168 /* PSMAppDelegate.h */,
+				F660905715C89DC40067B168 /* PSMAppDelegate.m */,
+				F660905915C89DC40067B168 /* MainMenu.xib */,
+				F660904B15C89DC40067B168 /* Supporting Files */,
+				F6A11AA515C8A86500CBC73C /* PSMTibbrServer.h */,
+				F6A11AA615C8A86500CBC73C /* PSMTibbrServer.m */,
+			);
+			path = tibbrNotifier;
+			sourceTree = "<group>";
+		};
+		F660904B15C89DC40067B168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F660904C15C89DC40067B168 /* tibbrNotifier-Info.plist */,
+				F660904D15C89DC40067B168 /* InfoPlist.strings */,
+				F660905015C89DC40067B168 /* main.m */,
+				F660905215C89DC40067B168 /* tibbrNotifier-Prefix.pch */,
+				F660905315C89DC40067B168 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6A11A8215C8A57200CBC73C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F6A11A8115C8A56D00CBC73C /* tibbr_small@2x.png */,
+				F6A11A8015C8A56D00CBC73C /* tibbr_small.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F6A11A8515C8A7A600CBC73C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F6A11A8615C8A7B600CBC73C /* AFHTTPClient.h */,
+				F6A11A8715C8A7B600CBC73C /* AFHTTPClient.m */,
+				F6A11A8815C8A7B600CBC73C /* AFHTTPRequestOperation.h */,
+				F6A11A8915C8A7B600CBC73C /* AFHTTPRequestOperation.m */,
+				F6A11A8A15C8A7B600CBC73C /* AFImageRequestOperation.h */,
+				F6A11A8B15C8A7B600CBC73C /* AFImageRequestOperation.m */,
+				F6A11A8C15C8A7B600CBC73C /* AFJSONRequestOperation.h */,
+				F6A11A8D15C8A7B600CBC73C /* AFJSONRequestOperation.m */,
+				F6A11A8E15C8A7B600CBC73C /* AFJSONUtilities.h */,
+				F6A11A8F15C8A7B600CBC73C /* AFJSONUtilities.m */,
+				F6A11A9015C8A7B600CBC73C /* AFNetworkActivityIndicatorManager.h */,
+				F6A11A9115C8A7B600CBC73C /* AFNetworkActivityIndicatorManager.m */,
+				F6A11A9215C8A7B600CBC73C /* AFNetworking.h */,
+				F6A11A9315C8A7B600CBC73C /* AFPropertyListRequestOperation.h */,
+				F6A11A9415C8A7B600CBC73C /* AFPropertyListRequestOperation.m */,
+				F6A11A9515C8A7B600CBC73C /* AFURLConnectionOperation.h */,
+				F6A11A9615C8A7B600CBC73C /* AFURLConnectionOperation.m */,
+				F6A11A9715C8A7B600CBC73C /* AFXMLRequestOperation.h */,
+				F6A11A9815C8A7B600CBC73C /* AFXMLRequestOperation.m */,
+				F6A11A9915C8A7B600CBC73C /* UIImageView+AFNetworking.h */,
+				F6A11A9A15C8A7B600CBC73C /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F660903F15C89DC40067B168 /* tibbrNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F660905E15C89DC40067B168 /* Build configuration list for PBXNativeTarget "tibbrNotifier" */;
+			buildPhases = (
+				F660903C15C89DC40067B168 /* Sources */,
+				F660903D15C89DC40067B168 /* Frameworks */,
+				F660903E15C89DC40067B168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tibbrNotifier;
+			productName = tibbrNotifier;
+			productReference = F660904015C89DC40067B168 /* tibbrNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F660903715C89DC40067B168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PSM;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Paul Scott-Murphy";
+			};
+			buildConfigurationList = F660903A15C89DC40067B168 /* Build configuration list for PBXProject "tibbrNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F660903515C89DC40067B168;
+			productRefGroup = F660904115C89DC40067B168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F660903F15C89DC40067B168 /* tibbrNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F660903E15C89DC40067B168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F660904F15C89DC40067B168 /* InfoPlist.strings in Resources */,
+				F660905515C89DC40067B168 /* Credits.rtf in Resources */,
+				F660905B15C89DC40067B168 /* MainMenu.xib in Resources */,
+				F6A11A7F15C8A37A00CBC73C /* Icon.icns in Resources */,
+				F6A11A8315C8A59300CBC73C /* tibbr_small@2x.png in Resources */,
+				F6A11A8415C8A59600CBC73C /* tibbr_small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F660903C15C89DC40067B168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F660905115C89DC40067B168 /* main.m in Sources */,
+				F660905815C89DC40067B168 /* PSMAppDelegate.m in Sources */,
+				F6A11A9B15C8A7B600CBC73C /* AFHTTPClient.m in Sources */,
+				F6A11A9C15C8A7B600CBC73C /* AFHTTPRequestOperation.m in Sources */,
+				F6A11A9D15C8A7B600CBC73C /* AFImageRequestOperation.m in Sources */,
+				F6A11A9E15C8A7B600CBC73C /* AFJSONRequestOperation.m in Sources */,
+				F6A11A9F15C8A7B600CBC73C /* AFJSONUtilities.m in Sources */,
+				F6A11AA015C8A7B600CBC73C /* AFNetworkActivityIndicatorManager.m in Sources */,
+				F6A11AA115C8A7B600CBC73C /* AFPropertyListRequestOperation.m in Sources */,
+				F6A11AA215C8A7B600CBC73C /* AFURLConnectionOperation.m in Sources */,
+				F6A11AA315C8A7B600CBC73C /* AFXMLRequestOperation.m in Sources */,
+				F6A11AA415C8A7B600CBC73C /* UIImageView+AFNetworking.m in Sources */,
+				F6A11AA715C8A86500CBC73C /* PSMTibbrServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F660904D15C89DC40067B168 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F660904E15C89DC40067B168 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F660905315C89DC40067B168 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F660905415C89DC40067B168 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F660905915C89DC40067B168 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F660905A15C89DC40067B168 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F660905C15C89DC40067B168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F660905D15C89DC40067B168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F660905F15C89DC40067B168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tibbrNotifier/tibbrNotifier-Prefix.pch";
+				INFOPLIST_FILE = "tibbrNotifier/tibbrNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F660906015C89DC40067B168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tibbrNotifier/tibbrNotifier-Prefix.pch";
+				INFOPLIST_FILE = "tibbrNotifier/tibbrNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F660903A15C89DC40067B168 /* Build configuration list for PBXProject "tibbrNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F660905C15C89DC40067B168 /* Debug */,
+				F660905D15C89DC40067B168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F660905E15C89DC40067B168 /* Build configuration list for PBXNativeTarget "tibbrNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F660905F15C89DC40067B168 /* Debug */,
+				F660906015C89DC40067B168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F660903715C89DC40067B168 /* Project object */;
+}
